@@ -1,0 +1,287 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+    font-family: "Encode Sans Condensed", sans-serif;
+  }
+  html { height: 101%; } /* always display scrollbars */
+  body { font-size: 62.5%; line-height: 1; font-family: Arial, Tahoma, Verdana, sans-serif; }
+
+
+  .left-part-with-title {
+    font-size: 30px;
+    color: #3182b5;
+    letter-spacing: 0.2em;
+    font-weight: 100;
+  }
+
+
+  .header_fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+
+  .header-content-box {
+    width: 100%;
+    background: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .left-part-with-title-box {
+    padding-top: 10px;
+  }
+
+  .nav-button {
+    background: black;
+    border: 1px solid black;
+    color: white;
+    font-size: 16px;
+    margin-left: 15px;
+  }
+  .nav-button:hover {
+    color: #3182b5;
+    cursor: pointer;
+  }
+
+  .nav-button-second {
+    background: black;
+    border: 1px solid black;
+    color: #83b1ce;
+    font-size: 16px;
+    margin-left: 15px;
+  }
+
+  .header-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .box-with-page-header-menu {
+    padding-left: 17%;
+  }
+
+  .left-part-with-title-box {
+    padding-right: 18%;
+  }
+  
+
+  .shopping-basket-img-box {
+    background: black;
+    border: 1px solid black;
+  }
+
+  .shopping-basket-img {
+    width: 35px;
+    height: 30px;
+
+  }
+
+  .link:hover {
+    color: #83b1ce;
+  }
+
+
+  
+  .link {
+    color: white;
+    text-decoration: none;
+  }
+
+  .text-title {
+    text-align: center;
+    font-size: 100px;
+    line-height: 100px;
+    color: rgb(33,87,121);
+    font-family: "Encode Sans Condensed", sans-serif;
+    padding-top: 30px;
+  }
+
+  .blue-block {
+    width: 108px;
+    height: 15px;
+    background: rgb(33,87,121);
+    color: rgb(33,87,121);
+    margin-top: 45px;
+    
+  }
+  
+  .text-title-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 9%;
+
+  }
+
+  .main-page-content {
+    padding-top: 80px;
+  }
+
+  .title-of-company-text {
+    font-size: 20px;
+    font-family: "Encode Sans Condensed", sans-serif;
+    padding-top: 37px;
+    text-align: center;
+  }
+
+  .subtext-of-company {
+    font-size: 13px;
+    font-family: "Encode Sans Condensed", sans-serif;
+    padding-top: 13px;
+    text-align: center;
+    line-height: 1.5em;
+  }
+
+  .box-with-company-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 3%;
+  }
+
+  .box-with-company-info-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 3%;
+  }
+
+  .first-row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .subtext-of-company-second {
+    padding-top: 50px;
+  }
+
+   .first-row-center {
+    padding-top: 70px;
+   }
+
+
+   
+  .footer-box {
+    width: 100%;
+    background: black;
+  }
+
+  .footer-text {
+      font-size: 16px;
+      color: white;
+      font-family: "Encode Sans Condensed", sans-serif;
+  }
+
+  .wix-link {
+    text-decoration: underline;
+    color: white;
+  }
+
+  .footer-cotent-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 90px;
+
+  }
+
+
+  .text-footer-box {
+    padding-right: 9%;
+  }
+ 
+  .footer-img {
+    padding-left: 9%;
+  }
+
+
+  .buy-btn-second {
+    background: #215779;
+    color: white;
+    font-size: 13px;
+    font-family: "Encode Sans Condensed", sans-serif;
+    font-weight: 100;
+    border: 1px solid #215779;
+    padding-left: 88px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 88px;
+   
+  }
+
+
+  .buy-btn-second:hover {
+    background: #83b1ce;
+    border: 1px solid #83b1ce;
+    }
+
+
+  .button-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+
+
+  @media (max-width: 767px) {
+    .left-part-with-title-box {
+        padding-right: 0%;
+        padding-left: 5px;
+        padding-top: 15px;
+
+    }
+
+    .box-with-page-header-menu {
+        padding-left: 0%;
+    }
+
+    .left-part-with-title {
+        font-size: 20px;
+        color: #3182b5;
+        letter-spacing: 0.1em;
+    }
+
+    .shopping-basket-img-box {
+        padding-left: 20px;
+      }
+
+      .first-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .text-title {
+        font-size: 65px;
+        line-height: 65px;
+      }
+
+      .box-with-company-info-second {
+        padding-top: 40px;
+      }
+
+      .subtext-of-company {
+        font-size: 11px;
+      }
+
+      .title-of-company-text {
+        font-size: 18px;
+      }
+
+      .buy-btn-second {
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+
+      .text-footer-box {
+        padding-left: 8px;
+      }
+}
+

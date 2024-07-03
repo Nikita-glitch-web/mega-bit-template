@@ -1,0 +1,598 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+    font-family: "Encode Sans Condensed", sans-serif;
+  }
+  html { height: 101%; } /* always display scrollbars */
+  body { font-size: 62.5%; line-height: 1; font-family: Arial, Tahoma, Verdana, sans-serif; }
+
+
+  .left-part-with-title {
+    font-size: 30px;
+    color: #3182b5;
+    letter-spacing: 0.2em;
+    font-weight: 100;
+  }
+
+
+  .header_fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+
+  .header-content-box {
+    width: 100%;
+    background: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .left-part-with-title-box {
+    padding-top: 10px;
+  }
+
+  .nav-button {
+    background: black;
+    border: 1px solid black;
+    color: white;
+    font-size: 16px;
+    margin-left: 15px;
+  }
+  .nav-button:hover {
+    color: #3182b5;
+    cursor: pointer;
+  }
+
+  .nav-button-second {
+    background: black;
+    border: 1px solid black;
+    color: #83b1ce;
+    font-size: 16px;
+    margin-left: 15px;
+  }
+
+  .header-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .box-with-page-header-menu {
+    padding-left: 17%;
+  }
+
+  .left-part-with-title-box {
+    padding-right: 18%;
+  }
+  
+
+  .shopping-basket-img-box {
+    background: black;
+    border: 1px solid black;
+  }
+
+  .shopping-basket-img {
+    width: 35px;
+    height: 30px;
+
+  }
+
+  .link {
+    color: white;
+    text-decoration: none;
+  }
+
+
+  .box-with-nigga-content {
+    background: black;
+    width: 100%;
+  }
+
+  .text-for-nigga {
+    color: white;
+    font-size: 90px;
+    font-family: "Encode Sans Condensed", sans-serif;
+    font-weight: 100;
+    line-height: 128px;
+  }
+
+  .buy-btn {
+    background: #215779;
+    color: white;
+    font-size: 13px;
+    font-family: "Encode Sans Condensed", sans-serif;
+    font-weight: 100;
+    border: 1px solid #215779;
+    padding-left: 23px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 23px;
+  }
+
+  .text-for-nigga-img {
+    padding-top: 9%;
+    padding-left: 4%;
+  }
+
+  .btn-element {
+    padding-left: 5px;
+  }
+
+  .buy-btn:hover {
+  background: #83b1ce;
+  border: 1px solid #83b1ce;
+  }
+
+  .box-with-nigga-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .left-text-title {
+    font-size: 20px;
+    font-weight: 100;
+    font-family: "Encode Sans Condensed", sans-serif;
+    text-align: center;
+  }
+
+  .left-just-text {
+    font-size: 14px;
+    font-weight: 100;
+    font-family: "Encode Sans Condensed", sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    line-height: 25px;
+  }
+
+
+  .link-for-img {
+    display: inline-block;
+  }
+ 
+  .link-for-img:hover img {
+    opacity: 0;
+  }
+  
+  .link-for-img:hover {
+    background: url("./images/white-headphones.webp") no-repeat 50% 50%;
+  }
+
+  .next-box-with-headphones {
+    margin-top: 10%;
+  }
+
+  .img {
+    width: 100%;
+    transition: all .3s ease;
+  }
+
+  .next-box-with-headphones {
+    display: flex;
+    justify-content: center;
+  }
+
+  .buy-btn-second {
+    background: #215779;
+    color: white;
+    font-size: 13px;
+    font-family: "Encode Sans Condensed", sans-serif;
+    font-weight: 100;
+    border: 1px solid #215779;
+    padding-left: 23px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 23px;
+    margin-top: 50px;
+    margin-left: 40%;
+  }
+
+  .buy-btn-second:hover {
+    background: #83b1ce;
+    border: 1px solid #83b1ce;
+    }
+
+    .left-text-box {
+      padding-top: 101px;
+    }
+
+
+
+    .box-with-headphones-facts {
+      background-image: url("./images/background-for-headphones-facts.webp");
+      width: 100%;
+    }
+
+
+    .text-title {
+      text-align: center;
+      font-size: 49px;
+      line-height: 67px;
+      color: white;
+      font-family: "Encode Sans Condensed", sans-serif;
+      padding-top: 30px;
+    }
+
+    .blue-block {
+      width: 108px;
+      height: 15px;
+      background: rgb(33,87,121);
+      color: rgb(33,87,121);
+      margin-top: 45px;
+      
+    }
+    
+    .image-wrapper {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 60px;
+    }
+
+    .text-title-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 9%;
+    }
+
+
+    .facts-title {
+      color: #959596;
+      font-size: 20px;
+      letter-spacing: 0.1em;
+    }
+    .facts-text {
+      color: #959596;
+      font-size: 16px;
+      padding-top: 7px;
+      
+    }
+
+    .text-column {
+      padding-left: 14px;
+      padding-top: 15px;
+    } 
+
+    .box-with-main-facts-content {
+      display: flex;
+    }
+
+    .content-facts-main {
+      padding-bottom: 60px;
+    }
+
+    .text-conection-title {
+      font-size: 100px;
+      color: rgb(33,87,121);
+      text-align: center;
+
+    }
+
+    .box-with-main-facts-content-center {
+      padding-right: 25px;
+      padding-top: 10px;
+    }
+
+    .box-with-conection {
+      padding-top: 80px;
+    }
+
+    .text-part {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .first-row {
+      display: flex;
+      justify-content: center;
+    }
+
+    .img-row {
+      display: flex;
+      justify-content: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+
+
+    .input-row {
+      width: 310px;
+      padding-left: 20px;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      background: white;
+      border: 1px solid black;
+    
+    }
+
+    .input-row-center {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    .input-row-second {
+      padding-bottom: 80px;
+    }
+
+    .first-input-column {
+      display: flex;
+      flex-direction: column;
+      padding-right: 3px;
+
+    }
+
+    .big-input-column {
+      padding-left: 3px;
+    }
+
+    .input-content {
+      display: flex;
+      justify-content: center;
+    }
+
+    .input-wrappper {
+      padding-top: 40px;
+    }
+
+    .just-blue-button {
+      width: 110px;
+      background: #3182b5;
+      text-align: center;
+      padding-top: 6px;
+      padding-bottom: 7px;
+      color: white;
+      border: 1px solid #3182b5;
+    }
+
+    .just-blue-button:hover {
+      background: #83b1ce;
+      border: 1px solid #83b1ce;
+    }
+
+    .button-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-left: 30%;
+    padding-top: 15px;
+    }
+
+    .title {
+      font-size: 20px;
+      text-align: center;
+  }
+
+  .text {
+    font-size: 14px;
+      text-align: center;
+      padding-top: 20px;
+  }
+
+
+  .button-without-background {
+    text-align: center;
+    padding-top: 4px;
+    background: white;
+    border: 1px solid white;
+    padding-bottom: 4px;
+    font-size: 16px;
+    color: #3182b5;
+  }
+
+
+  .button-without-background:hover {
+    color: black;
+    cursor: pointer;
+  }
+
+  .button-without-background-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .button-row-second {
+    display: flex;
+    justify-content: center;
+  }
+
+  .buy-btn-second-second {
+    margin-left: 0%;
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+
+  .footer-box {
+    width: 100%;
+    background: black;
+  }
+
+  .footer-text {
+      font-size: 16px;
+      color: white;
+      font-family: "Encode Sans Condensed", sans-serif;
+  }
+
+  .wix-link {
+    text-decoration: underline;
+    color: white;
+  }
+
+  .footer-cotent-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 90px;
+
+  }
+
+
+  .text-footer-box {
+    padding-right: 9%;
+  }
+ 
+  .footer-img {
+    padding-left: 9%;
+  }
+
+  .link:hover {
+    color: #83b1ce;
+  }
+
+
+  @media (max-width: 767px) {
+    .left-part-with-title-box {
+        padding-right: 0%;
+        padding-left: 5px;
+        padding-top: 15px;
+
+    }
+
+    .box-with-page-header-menu {
+        padding-left: 0%;
+    }
+
+    .left-part-with-title {
+        font-size: 20px;
+        color: #3182b5;
+        letter-spacing: 0.1em;
+    }
+
+    .box-with-nigga-content {
+      position: relative;
+      text-align: center;
+    }
+
+    .box-with-nigga {
+      position: absolute;
+      width: 100%;
+    }
+
+    .text-for-nigga-img {
+      position: relative;
+      padding-top: 48%;
+    padding-left: 0%;
+    padding-bottom: 10%;
+    }
+
+    .nigga-img {
+      width: 100%;
+    }
+
+    .text-for-nigga {
+      font-size: 23px;
+      
+    }
+
+    .next-box-with-headphones {
+      margin-top: 50%;
+    }
+
+    .next-box-with-headphones {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .left-just-text {
+      font-size: 12px;
+    }
+
+    .left-text-title {
+      font-size: 17px;
+    }
+
+    .buy-btn-second {
+      margin-left: 0%;
+    }
+
+    .button-row {
+      display: flex;
+      justify-content: center;
+    }
+
+    .first-row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .content-facts-main {
+      flex-direction: column;
+    }
+
+    .facts-title {
+      font-size: 17px;
+    }
+
+    .big-img {
+      width: 80%;
+    }
+
+    .text-title {
+      font-size: 22px;
+    }
+
+    .input-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .box-with-headphones-facts {
+      margin-top: 60px;
+    }
+
+    .big-input-column {
+      padding-left: 0px;
+    }
+
+    .input-row {
+      margin-top: 20px;
+    }
+
+
+    .text-conection-title {
+      font-size: 60px;
+    }
+
+    .button-wrapper {
+      padding-left: 0%;
+    }
+.title {
+  font-size: 17px;
+}
+
+.text {
+  font-size: 12px;
+}
+
+.shopping-basket-img-box {
+  padding-left: 20px;
+}
+   
+  }
+
+
+  @media (max-width: 1100px) {
+    .text-for-nigga-second {
+      font-size: 36px;
+      line-height: 61px;
+    }
+
+
+  }
+
+  @media (max-width: 354px) {
+  
+    .input-row {
+      margin-top: 20px;
+      width: 210px;
+    }
+
+  }

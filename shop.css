@@ -1,0 +1,273 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+    font-family: "Encode Sans Condensed", sans-serif;
+  }
+  html { height: 101%; } /* always display scrollbars */
+  body { font-size: 62.5%; line-height: 1; font-family: Arial, Tahoma, Verdana, sans-serif; }
+
+
+  .left-part-with-title {
+    font-size: 30px;
+    color: #3182b5;
+    letter-spacing: 0.2em;
+    font-weight: 100;
+  }
+
+
+  .header_fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+
+  .header-content-box {
+    width: 100%;
+    background: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .left-part-with-title-box {
+    padding-top: 10px;
+  }
+
+  .nav-button {
+    background: black;
+    border: 1px solid black;
+    color: white;
+    font-size: 16px;
+    margin-left: 15px;
+  }
+  .nav-button:hover {
+    color: #3182b5;
+    cursor: pointer;
+  }
+
+  .nav-button-second {
+    background: black;
+    border: 1px solid black;
+    color: #83b1ce;
+    font-size: 16px;
+    margin-left: 15px;
+  }
+
+  .header-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .text-title-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 9%;
+
+  }
+
+  .shopping-basket-img-box {
+    background: black;
+    border: 1px solid black;
+  }
+
+  .shopping-basket-img {
+    width: 35px;
+    height: 30px;
+  }
+
+  .box-with-page-header-menu {
+    padding-left: 17%;
+  }
+
+  .left-part-with-title-box {
+    padding-right: 18%;
+  }
+
+
+  .text-title {
+    text-align: center;
+    font-size: 85px;
+    line-height: 100px;
+    color: rgb(33,87,121);
+    font-family: "Encode Sans Condensed", sans-serif;
+    padding-top: 90px;
+  }
+
+  .blue-block {
+    width: 108px;
+    height: 15px;
+    background: rgb(33,87,121);
+    color: rgb(33,87,121);
+    margin-top: 45px;
+    
+  }
+
+
+  .link-for-img {
+    display: inline-block;
+  }
+ 
+  .link-for-img:hover img {
+    opacity: 0;
+  }
+  
+  .link-for-img:hover {
+    background: url("./images/blue-headphone-hover-2.webp") no-repeat 5% 50%;
+  }
+
+  .link-for-img-second {
+    display: inline-block;
+  }
+ 
+  .link-for-img-second:hover img {
+    opacity: 0;
+  }
+  
+  .link-for-img-second:hover {
+    background: url("./images/green-headphone-hover-2.webp") no-repeat 5% 50%;
+  }
+
+  .link-for-img-third {
+    display: inline-block;
+  }
+ 
+  .link-for-img-third:hover img {
+    opacity: 0;
+  }
+  
+  .link-for-img-third:hover {
+    background: url("./images/white-headphone-hover-2.webp") no-repeat 5% 50%;
+  }
+
+  .link-for-img-forth {
+    display: inline-block;
+  }
+ 
+  .link-for-img-fourth:hover img {
+    opacity: 0;
+  }
+  
+  .link-for-img-fourth:hover {
+    background: url("./images/white-headphone-hover-2.webp") no-repeat 5% 50%;
+  }
+
+
+  .footer-box {
+    width: 100%;
+    background: black;
+  }
+
+  .footer-text {
+      font-size: 16px;
+      color: white;
+      font-family: "Encode Sans Condensed", sans-serif;
+  }
+
+  .wix-link {
+    text-decoration: underline;
+    color: white;
+  }
+
+  .footer-cotent-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 90px;
+
+  }
+
+
+  .text-footer-box {
+    padding-right: 9%;
+  }
+ 
+  .footer-img {
+    padding-left: 9%;
+  }
+
+
+  .img {
+    width: 260px;
+    transition: all .3s ease;
+  }
+
+  .text-for-item {
+    font-size: 16px;
+    font-family: "Encode Sans Condensed", sans-serif;
+  }
+
+  .item-price-text {
+    font-size: 13px;
+    font-family: "Encode Sans Condensed", sans-serif;
+    color: #3c4547;
+    padding-top: 8px;
+  }
+
+  .item-price-text-second {
+    text-decoration: line-through;
+    padding-right: 10px;
+  }
+
+  .link:hover {
+    color: #83b1ce;
+  }
+
+
+  .shop-content-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+  }
+
+  .price-wrappers {
+    display: flex;
+  }
+
+
+  @media (max-width: 767px) {
+    .left-part-with-title-box {
+        padding-right: 0%;
+        padding-left: 5px;
+        padding-top: 15px;
+
+    }
+
+    .box-with-page-header-menu {
+        padding-left: 0%;
+    }
+
+    .left-part-with-title {
+        font-size: 20px;
+        color: #3182b5;
+        letter-spacing: 0.1em;
+    }
+
+    .shop-content-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 20px;
+    }
+
+    .text-title {
+        font-size: 42px;
+        padding-left: 20px;
+    }
+
+    .footer-cotent-box {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+}
